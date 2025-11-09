@@ -52,7 +52,7 @@ It is essential to work inside a virtual environment to avoid system dependency 
 With the virtual environment active, install the necessary libraries.
 
 ```bash
-(venvChat) $ pip install langchain
+pip install langchain
 ```
 ### Step 4: Pull the Llama 3 Model
 
@@ -63,5 +63,5 @@ ollama pull llama3
 ### Step 5: Run the Program
 
 ```bash
-(venv) $ python chatbot.py
+python chatbot.py
 ```
